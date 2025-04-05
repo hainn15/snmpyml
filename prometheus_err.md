@@ -62,3 +62,9 @@ scrape_configs:
            target_label: instance
          - target_label: __address__
            replacement: localhost:9116 # the snmp exporter's real hostname:port
+
+
+
+Error:
+msg="Error loading config (--config.file=prometheus.yml)" file=/etc/prometheus/prometheus.yml err="parsing YAML file prometheus.yml: yaml: line 50: found character that cannot start any token"
+
